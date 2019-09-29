@@ -5,10 +5,15 @@ import LandingPage from "./LandingPage/LandingPage";
 import MarketPage from "./MarketPage/MarketPage";
 import LoginPage from "./Login/LoginPage";
 import PageNotFound from "./InvalidPage/PageNotFound";
+import NavBar from "./Shared/NavBar"
+
 
 function App() {
   return (
     <div className="App">
+        <React.Fragment>
+            <NavBar/>
+        </React.Fragment>
       <HashRouter>
           <div>
               <Switch>
