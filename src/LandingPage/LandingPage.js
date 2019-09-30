@@ -1,5 +1,6 @@
 import React from "react";
 import "./LandingPage.css"
+import FrontPagePic from "../Assets/FrontPagePic.jpg"
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
@@ -7,6 +8,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 import FormControl from "react-bootstrap/FormControl";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
 
 
 function LandingPage() {
@@ -37,6 +39,9 @@ function LandingPage() {
                     </Col>
                 </Row>
             </Container>
+            <div className="image">
+                <Image src={FrontPagePic} fluid />
+            </div>
         </div>
     )
 }
