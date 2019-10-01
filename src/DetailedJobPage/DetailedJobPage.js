@@ -41,9 +41,20 @@ function DetailedJobPage() {
                             </div>
                         </div>
                         <div className="col-sm-4">
-                            <div className="card">
+                            <div className="card text-center">
                                 <div className="card-body">
-                                    This is some text within a card body.
+                                    <div className="aboutJobRightCard">
+                                        <h5 className="card-title">Pr. time</h5>
+                                        <p className="card-text">DKK 400 - 700.</p>
+                                    </div>
+                                    <div className="aboutJobRightCard">
+                                        <h5 className="card-title">Job start</h5>
+                                        <p className="card-text">Snarest muligt</p>
+                                    </div>
+                                    <div className="aboutJobRightCard">
+                                        <h5 className="card-title">Arbejdssted</h5>
+                                        <p className="card-text"><p>Region: Storkøbenhavn</p><p className="text-muted">1456 København K</p></p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
