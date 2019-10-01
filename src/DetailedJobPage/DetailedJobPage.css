@@ -1,3 +1,8 @@
 .summary-Job-Description {
-    padding: 10%;
+    padding: 5%;
+}
+
+.badge, .badge-secondary {
+    margin-right: 0.5%;
+    margin-bottom: 1%;
 }
