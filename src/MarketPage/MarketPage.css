@@ -1,7 +1,9 @@
-.search{
-    padding-top: 10%;
-}
 .cards{
-   padding: 5%;
+    padding: 5%;
 }
-
+.padtop{
+    padding-top: 2%;
+}
+h1{
+    padding-top: 6.5%;
+}

@@ -44,11 +44,45 @@ class MarketPage extends React.Component{
 
     render() {
         return (
-            <Container fluid sm={12} md={12} xl={12}>
-                <Row sm={12} md={12} xl={12}>
-                    <Col xl={3}>
+        <Container fluid  sm={12} md={12} xl={12} className="cards">
+            <Row sm={12} md={12} xl={12}>
+            <Col  xl={3} >
 
-                    </Col>
+                <h1 className="d-flex justify-content-left">Labels</h1>
+
+                <ul className="list-group">
+                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Front-end
+                        <span className="badge badge-primary badge-pill">14</span>
+                    </li>
+                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Full-stack
+                        <span className="badge badge-primary badge-pill">2</span>
+                    </li>
+                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Backend
+                        <span className="badge badge-primary badge-pill">1</span>
+                    </li>
+                </ul>
+
+                <h1 className="d-flex justify-content-left">Languages</h1>
+
+                <ul className="list-group">
+                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Java
+                        <span className="badge badge-primary badge-pill">299</span>
+                    </li>
+                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                        C#
+                        <span className="badge badge-primary badge-pill">2</span>
+                    </li>
+                    <li className="list-group-item d-flex justify-content-between align-items-center">
+                        Angular
+                        <span className="badge badge-primary badge-pill">1</span>
+                    </li>
+                </ul>
+
+            </Col>
                     <Col xl={9} className="cards">
                         <Row sm={12} md={12} xl={12}>
                             <Col className="search">
