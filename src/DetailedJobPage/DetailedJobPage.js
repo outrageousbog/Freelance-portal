@@ -1,15 +1,9 @@
 import React from "react";
 import './DetailedJobPage.css';
 import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import InputGroup from "react-bootstrap/InputGroup";
-import FormControl from "react-bootstrap/FormControl";
-import Button from "react-bootstrap/Button";
-import Col from "react-bootstrap/Col";
-import Card from "react-bootstrap/Card";
 
 function DetailedJobPage() {
-    return(
+    return (
         <div>
             <Container className="summary-Job-Description">
                 <div className="container">
@@ -26,16 +20,23 @@ function DetailedJobPage() {
                         <div className="col-sm-8">
                             <div className="card">
                                 <div className="card-body">
-                                    <p>Vi har brug for en frisk person der vil få ansvaret for reaktivering tidligere kunder. Vi har rigtig gode realtioner og et godt renome hos dem og vi kan garanteret nyde godt af at de får lidt fornyet opmærksomhed.</p>
+                                    <p>Vi har brug for en frisk person der vil få ansvaret for reaktivering tidligere
+                                        kunder. Vi har rigtig gode realtioner og et godt renome hos dem og vi kan
+                                        garanteret nyde godt af at de får lidt fornyet opmærksomhed.</p>
                                     <br></br>
 
                                     Dine opgaver vil være at:
                                     <ul>
-                                        <li>Reaktivere eksisterende kunder hos os (IT-forhandlere) som tidligere har handlet, men er stoppet</li>
-                                        <li>Få eksisterende mindre kunder til at handler oftere og/ eller mere hos os.</li>
+                                        <li>Reaktivere eksisterende kunder hos os (IT-forhandlere) som tidligere har
+                                            handlet, men er stoppet
+                                        </li>
+                                        <li>Få eksisterende mindre kunder til at handler oftere og/ eller mere hos os.
+                                        </li>
                                         <li>Produkterne er computere og printere</li>
                                         <li>Personen skal være serviceminded, venlig og energisk</li>
-                                        <li>Det er ikke et krav at vedkommende har detaljeret produktviden, men skal vide hvad en computer og printer består af overordnet</li>
+                                        <li>Det er ikke et krav at vedkommende har detaljeret produktviden, men skal
+                                            vide hvad en computer og printer består af overordnet
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -53,7 +54,8 @@ function DetailedJobPage() {
                                     </div>
                                     <div className="aboutJobRightCard">
                                         <h5 className="card-title">Arbejdssted</h5>
-                                        <p className="card-text"><p>Region: Storkøbenhavn</p><p className="text-muted">1456 København K</p></p>
+                                        <p className="card-text"><p>Region: Storkøbenhavn</p><p
+                                            className="text-muted">1456 København K</p></p>
                                     </div>
                                 </div>
                             </div>
