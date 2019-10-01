@@ -44,12 +44,10 @@ class MarketPage extends React.Component{
 
     render() {
         return (
-        <Container fluid  sm={12} md={12} xl={12} className="cards">
-            <Row sm={12} md={12} xl={12}>
-            <Col  xl={3} >
-
+        <Container fluid>
+            <Row sm={12} md={12} xl={12} >
+            <Col  xl={2} className="d-none d-lg-block">
                 <h1 className="d-flex justify-content-left">Labels</h1>
-
                 <ul className="list-group">
                     <li className="list-group-item d-flex justify-content-between align-items-center">
                         Front-end
@@ -64,9 +62,7 @@ class MarketPage extends React.Component{
                         <span className="badge badge-primary badge-pill">1</span>
                     </li>
                 </ul>
-
                 <h1 className="d-flex justify-content-left">Languages</h1>
-
                 <ul className="list-group">
                     <li className="list-group-item d-flex justify-content-between align-items-center">
                         Java
@@ -81,11 +77,10 @@ class MarketPage extends React.Component{
                         <span className="badge badge-primary badge-pill">1</span>
                     </li>
                 </ul>
-
             </Col>
-                    <Col xl={9} className="cards">
-                        <Row sm={12} md={12} xl={12}>
-                            <Col className="search">
+                    <Col xl={9} xs={12} className="cards">
+                        <Row>
+                            <Col>
                                 <InputGroup className="mb-5">
                                     <FormControl
                                         placeholder="Job titel eller søge ord"/>
