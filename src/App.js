@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import {HashRouter, Route, Switch} from "react-router-dom";
 import LandingPage from "./LandingPage/LandingPage";
 import MarketPage from "./MarketPage/MarketPage";
